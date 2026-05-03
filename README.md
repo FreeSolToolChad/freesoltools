@@ -1,3 +1,40 @@
+# FreeSolTools — 0% Solana Token Account Closer
+
+FreeSolTools is an open-source Solana utility built to help users close empty token accounts and reclaim locked SOL rent with **0% service fees**.
+
+The goal of this project is simple:
+
+> Become the first fully open-source, 0% Solana token account closing service, with the front end hosted at [FreeSolTools.com](https://freesoltools.com).
+
+## What It Does
+
+On Solana, token accounts can hold small amounts of rent-exempt SOL, even after the token balance is empty.
+
+FreeSolTools scans your wallet for empty token accounts and lets you safely close them, sending the reclaimed SOL back to your wallet.
+
+## Key Features
+
+- **0% service fee**
+- **Open-source codebase**
+- **Client-side wallet signing**
+- **No private keys ever requested**
+- **No account creation required**
+- **No hidden fees**
+- **Simple front end hosted on FreeSolTools.com**
+- **Built for transparency and trust**
+
+## Why This Exists
+
+Many Solana users have empty token accounts sitting in their wallets without realizing those accounts still contain reclaimable SOL rent.
+
+Some existing tools charge users a percentage of the SOL they recover.
+
+FreeSolTools is built as a transparent alternative:
+
+- Users keep 100% of the SOL they reclaim
+- The source code is public
+- The tool is simple, focused, and easy to verify
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
