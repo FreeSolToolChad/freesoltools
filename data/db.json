@@ -1,0 +1,23 @@
+{
+  "stats": {
+    "totalSolRecovered": 0.00407856,
+    "accountsClosed": 2,
+    "walletsCleaned": 2
+  },
+  "activities": [
+    {
+      "wallet": "3gbJbk8wRKdEELEYfB8k9NdmGo8em1YF6RrC3sk7ZVPr",
+      "signature": "4bv2xuLrAEHju9VMLULRtRcG9jPyMesXPF3vxP1rw76vvuoEfLADKzvizdmizyupZZFVeiSUtJ8vAzMME1csm5qv",
+      "accountsCount": 1,
+      "recoveredSol": 0.00203928,
+      "timestamp": 1773489771453
+    },
+    {
+      "wallet": "3gbJbk8wRKdEELEYfB8k9NdmGo8em1YF6RrC3sk7ZVPr",
+      "signature": "5JapxNb9UXQEuXBkaEWmznbQwoLqz6HLXAY7MB3U5Xw6A64rKQrVfAVNveF8tMvFR2eGYNtpcpYjyktfeqaGxeAc",
+      "accountsCount": 1,
+      "recoveredSol": 0.00203928,
+      "timestamp": 1773227752137
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+import { Metadata } from 'next';
+import Link from 'next/link';
+
+export const metadata: Metadata = {
+  title: 'FreeSolTools vs Claim Your Sol | The True 0% Fee Alternative',
+  description: 'Compare SolFree Tools to Claim Your Sol. Keep 100% of your recovered SOL rent with our 0% fee token account cleaner.',
+};
+
+export default function VsClaimYourSolPage() {
+  return (
+    <main className="max-w-4xl mx-auto px-4 py-16 text-zinc-300 space-y-12 selection:bg-[#e2fbff]/30">
+      <div className="text-center space-y-4">
+        <div className="flex items-center justify-center gap-6 mb-2">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src="/images/logo.png" alt="FreeSolTools Logo" className="w-16 h-16 object-contain drop-shadow-[0_0_8px_rgba(249,115,22,0.4)] scale-[1.5]" />
+          <span className="text-2xl font-bold text-zinc-600">VS</span>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src="/images/claimyoursol-logo.png" alt="Claim Your Sol Logo" className="w-16 h-16 rounded-xl object-contain bg-zinc-800" />
+        </div>
+        <h1 className="text-4xl md:text-5xl font-extrabold text-white">
+          FreeSolTools vs <span className="text-purple-400">Claim Your Sol</span>
+        </h1>
+        <p className="text-lg text-zinc-400 max-w-2xl mx-auto">
+          Why give up a portion of your funds when you can claim 100% of your SOL back for free?
+        </p>
+      </div>
+
+      <div className="overflow-x-auto border border-zinc-800 rounded-2xl bg-zinc-900/30">
+        <table className="w-full text-left border-collapse">
+          <thead>
+            <tr className="border-b border-zinc-800">
+              <th className="p-4 font-semibold text-zinc-400">Feature</th>
+              <th className="p-4 font-bold text-white bg-zinc-800/30 border-x border-zinc-800">
+                <div className="flex items-center gap-2">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img src="/images/logo.png" alt="FreeSolTools" className="w-6 h-6 object-contain scale-[1.5]" />
+                  FreeSolTools
+                </div>
+              </th>
+              <th className="p-4 font-semibold text-zinc-500">
+                <div className="flex items-center gap-2">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img src="/images/claimyoursol-logo.png" alt="Claim Your Sol" className="w-6 h-6 rounded-md object-contain bg-zinc-800" />
+                  Claim Your Sol
+                </div>
+              </th>
+            </tr>
+          </thead>
+          <tbody className="divide-y divide-zinc-800">
+            <tr>
+              <td className="p-4 font-medium">Platform Fee</td>
+              <td className="p-4 font-bold text-[#e2fbff] bg-zinc-800/30 border-x border-zinc-800">0%</td>
+              <td className="p-4 text-zinc-400">~20%</td>
+            </tr>
+            <tr>
+              <td className="p-4 font-medium">You keep per account</td>
+              <td className="p-4 font-bold text-green-400 bg-zinc-800/30 border-x border-zinc-800">~0.0020 SOL</td>
+              <td className="p-4 font-bold text-red-400">~0.0016 SOL</td>
+            </tr>
+            <tr>
+              <td className="p-4 font-medium">You keep (per 50 accounts)</td>
+              <td className="p-4 font-bold text-green-400 bg-zinc-800/30 border-x border-zinc-800">~0.10 SOL</td>
+              <td className="p-4 font-bold text-red-400">~0.08 SOL</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div className="space-y-6 bg-zinc-900/50 p-8 rounded-2xl border border-zinc-800">
+        <h2 className="text-2xl font-bold text-white">Keep What&apos;s Yours</h2>
+        <p className="leading-relaxed text-zinc-400">
+          Tools like &quot;Claim Your Sol&quot; are built to take a fraction of the rent exemption from every account you close. This means you are essentially paying them your own money just to interact with the Solana blockchain.
+        </p>
+        <p className="leading-relaxed text-zinc-400">
+          SolFree Tools eliminates the middleman tax. By using standard `@solana/spl-token` instructions, we ensure that every single lamport of rent recovered is sent directly back to your wallet.
+        </p>
+      </div>
+
+      <div className="text-center pt-8">
+        <Link href="/" className="inline-flex items-center justify-center px-8 py-4 text-lg font-bold text-black bg-[#e2fbff] hover:bg-[#c2f6ff] rounded-xl transition-colors">
+          Switch to SolFree Now
+        </Link>
+      </div>
+    </main>
+  );
+}
